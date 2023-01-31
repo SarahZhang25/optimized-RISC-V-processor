@@ -1,0 +1,30 @@
+# DO NOT CHANGE THE NAME OF THIS FILE!
+#
+# This is the gitignore file that the students will receive so they don't
+# accidentally commit build products.  It is named WITHOUT the leading dot
+# so that it doesn't cause problems in our source repo.  The dot will be
+# added when is it copied to Didit.
+#
+Processor
+Processor.so
+DecodeTB
+DecodeTB.so
+FetchTB
+FetchTB.so
+sort_base.log
+sort_bench.log
+sort_test.log
+
+*.bo
+build_dir/
+synthDir/
+synth.out
+
+sw/build
+sw/sort/*.vmh
+sw/sort/*.o
+sw/sort/*.dump
+sw/sort/*.pyc
+sw/sort/tools/*.pyc
+mem.vmh
+
