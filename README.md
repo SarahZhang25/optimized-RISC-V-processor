@@ -1,4 +1,4 @@
-# optimized-RISC-V-processor
+# An optimized RISC-V processor
 A pipelined RISC-V processor with realistic memory system built using the Minispec HDL_1 and Assembly language, optimized for performance on a quicksort algorithm. Completed as a final project in MIT 6.191_{6.004} Fall 2022. 
 
 Features:
@@ -10,3 +10,4 @@ Features:
 
 Notes:
 1. Minispec is a custom verson of Bluespec System Verilog
+2. All relevant files are in `/src`. Key files for processor functionality are `Processor.ms`, `Decode.ms`, `Execute.ms`, `ALU.ms`, `CacheHelpers.ms`, `DirectMappedCache.ms`, `TwoWayCache.ms`. Sorting code in is in `/src/sw/sort/sort.S`.
