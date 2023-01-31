@@ -1,5 +1,5 @@
 # An optimized RISC-V processor
-A pipelined RISC-V processor with realistic memory system built using the Minispec HDL_1 and Assembly language, optimized for performance on a quicksort algorithm. Completed as a final project in MIT 6.191_{6.004} Fall 2022. 
+A pipelined RISC-V processor with realistic memory system built using in the Minispec hardware description language and Assembly, optimized for performance on a quicksort algorithm. Completed as a final project in MIT 6.191 (6.004) Fall 2022. 
 
 Features:
 * Processor has a real memory system with customized instruction and data caches. Instruction cache uses a direct mapped cache while data cache uses a two-way cache. 
