@@ -5,9 +5,8 @@ Features:
 * Processor has a real memory system with specialized instruction and data caches. Instruction cache uses a direct mapped cache while data cache uses a two-way cache. 
 * Processor uses a 4-stage pipeline with data bypassing following the state-transition diagram below:
 ![State-transition diagram of pipelined processor](./img/pipeline_diagram.png)
-* Runtime of a quicksort algorithm is minimized
 * Quicksort algorithm written in Assembly includes Hoare partitioning, tail call elimination, loop-invariant code motion, and strategically ordered code to minimize stalling in the processor's pipeline. Results in >50% faster performance
-* Implments carry-select adder for faster ALU add operations
+* Implementation of carry-select adder for faster ALU add operations
 * In total, the optimizations lead to a >40% faster runtime and CPI (cycles per instruction) for the processor compared to a single cycle version of it
 
 Notes:
